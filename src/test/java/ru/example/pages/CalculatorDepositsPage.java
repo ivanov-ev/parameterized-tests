@@ -22,7 +22,7 @@ public class CalculatorDepositsPage {
             depositSumAtPeriodEndOutput = $(byText("Сумма в конце срока")).sibling(0);
 
     public CalculatorDepositsPage openPage() {
-        open("https://www.banki.ru/services/calculators/deposits");
+        open("/deposits");
         return this;
     }
 

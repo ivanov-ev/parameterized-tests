@@ -3,12 +3,12 @@ package ru.example.data;
 public enum Deposits {
 
     MINIMAL_DEPOSIT("100", "1", "1", "100.08"),
-    OPTIMAL_DEPOSIT("100000", "12", "25", "124950.60");
+    OPTIMAL_DEPOSIT("100000", "12", "25", "124951.16");
 
-    private String depositSum = null,
-            depositDuration = null,
-            depositRate = null,
-            finalSum = null;
+    private final String depositSum,
+            depositDuration,
+            depositRate,
+            finalSum;
 
     Deposits(String depositSum, String depositDuration, String depositRate, String finalSum) {
         this.depositSum = depositSum;
